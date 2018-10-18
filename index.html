@@ -13,35 +13,59 @@
     <!-- 
         label tag wraps to give user a big click target to focus on the input
      -->
-    <form action="">
+    <form 
+        action="https://dc-coffeerun.herokuapp.com/api/coffeeOrders"
+        method="POST"
+    >
         <label>
             Coffee:
             <!-- placeholder shows user example input -->
-            <input type="text" name="coffee" placeholder="Iced Coffee">
+            <input 
+                type="text" 
+                name="coffee" 
+                placeholder="Iced Coffee"
+            >
         </label>
-        <br><br>
+<br><br>
         <label>
             Email Address:
-            <input type="email" name="emailAddress" placeholder="username@mail.com">
+            <input 
+                type="email" 
+                name="emailAddress" 
+                placeholder="username@mail.com"
+            >
         </label>
-        <br><br>
+<br><br>
         <label>
             Flavor:
-            <input type="text" name="flavor" placeholder="Plain">
+            <input 
+                type="text" 
+                name="flavor" 
+                placeholder="Plain"
+            >
         </label>
-        <br><br>
+<br><br>
         <label>
             Size:
-            <input type="text" name="size" placeholder="Vente">
+            <input 
+                type="text" 
+                name="size"
+                placeholder="Vente"
+            >
         </label>
-        <br><br>
+<br><br>
         <label>
             Strength:
-            <input type="number" name="strength" min="0" max="100" placeholder="50">
+            <input 
+                type="number" 
+                name="strength" 
+                min="0" 
+                max="100" 
+                placeholder="50"
+            >
         </label>
-        <br><br>
+<br><br>
         <input type="submit">
-
     </form>
 
     <script src="scripts/index.js"></script>
