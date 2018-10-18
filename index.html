@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 <body>
-    <h1>Welcome to the Coffee Shop!</h1>
+    <h1>Welcome to the Online Coffee Shop!</h1>
     <!-- 
         label tag wraps to give user a big click target to focus on the input
      -->
@@ -25,8 +25,21 @@
             <input type="email" name="emailAddress" placeholder="username@mail.com">
         </label>
         <br><br>
-        
-
+        <label>
+            Flavor:
+            <input type="text" name="flavor" placeholder="Plain">
+        </label>
+        <br><br>
+        <label>
+            Size:
+            <input type="text" name="size" placeholder="Vente">
+        </label>
+        <br><br>
+        <label>
+            Strength:
+            <input type="number" name="strength" min="0" max="100" placeholder="50">
+        </label>
+        <br><br>
         <input type="submit">
 
     </form>
